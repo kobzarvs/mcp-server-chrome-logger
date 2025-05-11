@@ -60,4 +60,6 @@ pnpm start
 
 ![Cursor MCP Servers Settings](doc/cursor-msp-servers.jpg)
 
-![MCP Server Chrome Logger Demo](doc/cursor-demo.gif)
+## 5. Пример использования
+
+![MCP Server Chrome Logger Demo](doc/cursor-demo.jpg)
