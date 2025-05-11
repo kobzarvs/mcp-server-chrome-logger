@@ -1,0 +1,28 @@
+{
+    "name": "chrome-logs",
+    "version": "0.1.0",
+    "description": "MCP сервер для сбора логов Chrome и отправки их в Cursor",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js %1",
+        "dev": "ts-node src/index.ts",
+        "fix": "biome check --write"
+    },
+    "dependencies": {
+        "@biomejs/biome": "^1.9.4",
+        "@modelcontextprotocol/sdk": "^1.11.0",
+        "@types/chrome-remote-interface": "^0.31.14",
+        "axios": "^1.9.0",
+        "chrome-remote-interface": "^0.32.2",
+        "express": "^4.21.2",
+        "winston": "^3.17.0",
+        "zod": "^3.24.4"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.17.38",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
