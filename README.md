@@ -7,6 +7,8 @@ MCP сервер для сбора логов и ошибок из Chrome.
 ## 1. Установка
 
 ```bash
+git clone https://github.com/kobzarvs/mcp-server-chrome-logger.git
+cd mcp-server-chrome-logger
 pnpm install
 ```
 
